@@ -23,3 +23,10 @@ let firstLine = "I am going to be";
 let lastLine = "an awesome web developer";
 let concatOneLine = firstLine + ' ' + lastLine;
 console.log(concatOneLine);
+
+// Sarah’s mother is teaching her mathematics. She gave Sarah a number and asked her what the remainder would be if she divided the number by 5. Help Sarah write the program.
+
+let number = 119;
+let result = number % 5;
+
+console.log(result);
