@@ -30,3 +30,29 @@ let number = 119;
 let result = number % 5;
 
 console.log(result);
+
+
+// You get first in class seven. Your friends Alia, Dalia, Salia, Malia, Lilia and Jalaiya- You don't know thier grade of exam. But you also know thier result number. So Write the program with javascript
+
+
+
+let numbers = [95, 66, 80, 59, 47, 77];
+numbers.unshift(10)
+console.log(numbers);
+
+// Module 19 & Milestone 04 problem solvinig start here
+
+
+// problem solving 01
+let fruits = ['Apple', 'Banana', 'Orange'];
+console.log(fruits.indexOf('Banana'));
+
+let fruits1 = ['Apple', 'Banana', 'Orange'];
+fruits1[1] = "Mango";
+console.log(fruits1);
+
+var fruits2 = ['Apple', 'Banana', 'Orange'];
+fruits2.pop();
+console.log(fruits2);
+fruits2.push("Watermelon");
+console.log(fruits2);
