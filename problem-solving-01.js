@@ -102,3 +102,20 @@ if (fdResult >= 80) {
 } else {
     console.log("Opps");
 }
+
+// MODULE 20 PROBLEM SOLVING HERE CODE
+
+// 1. WRITE A FUNCTIION CALLED FOO() WHIICH PRINTS "Foo" AND A FUNCTIONM CALLED BAR() WHICH PJRINTS (BAR). CALL FUNCTIN BAR() INSIDE THE FOO() FUNCTION AFTER PRINTING. WHAT WIILL BE TYHE OUTPUT? nOW CALL THE FOO() TO SEE THE OUTPUT 
+function foo() {
+    console.log("foo");
+    let secondFunc = bar();
+    return secondFunc;
+}
+
+
+function bar() {
+    console.log("Bar");
+}
+
+foo();
+bar();
