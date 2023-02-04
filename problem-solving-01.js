@@ -56,3 +56,49 @@ fruits2.pop();
 console.log(fruits2);
 fruits2.push("Watermelon");
 console.log(fruits2);
+
+// You and your friends Tom, Jane, Peter and John got their final exam results. Your total score is 85, Tom’s total score is 66, Jane’s total score is 95, Peter’s total score is 56 and John’s total score is 40. The grading chart is
+
+// let myFriendsResult = [85, 66, 95, 56, 40];
+// if (myFriendsResult[0] >= 90) {
+//     console.log('My Score: A+');
+// }
+// if (myFriendsResult[1] >= 80) {
+//     console.log("Tom's Score: A");
+// }
+// if (myFriendsResult[2] >= 60) {
+//     console.log("Tom's Score: B")
+// }
+// if (myFriendsResult[3] >= 50) {
+//     console.log("Jane's Score: C");
+// }
+// if (myFriendsResult[4] >= 40) {
+//     console.log("Peter's score: D")
+// }
+
+var bottle = 'water';
+var bottleColor = 'yeollow';
+var glassPrice = 120;
+var penColor = 'blue';
+var isExpensive = true;
+
+var tableItems = ['bottle', 'pen', 'mouse', 'sunglass', 'paper'];
+
+
+let fdResult = 75;
+
+if (fdResult >= 80) {
+    console.log("Grade: A");
+} else if (fdResult >= 70) {
+    console.log("Grade: A-");
+} else if (fdResult >= 60) {
+    console.log("Grade: B");
+} else if (fdResult >= 50) {
+    console.log("Grade: C");
+} else if (fdResult >= 40) {
+    console.log("Grade: D");
+} else if (fdResult <= 39) {
+    console.log("Grade: F");
+} else {
+    console.log("Opps");
+}
