@@ -119,3 +119,28 @@ function bar() {
 
 foo();
 bar();
+
+// 2. Houres to minutes convert 
+// function convertMin(hrs) {
+//     let houresInMin = hrs % 60;
+//     console.log(houresInMin);
+// }
+
+// convertMin(2);
+
+// 3. Find Leap Year 
+
+let yeraArr = [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039];
+for (i = 0; i < yeraArr.length; i++) {
+    let arrIndex = yeraArr[i];
+
+    function findLeapYear() {
+        const learl = arrIndex % 4;
+        return learl;
+    }
+    let leapYearMod = findLeapYear();
+
+    if (leapYearMod == 0) {
+        console.log(arrIndex)
+    }
+}
