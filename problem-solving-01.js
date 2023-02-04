@@ -130,17 +130,41 @@ bar();
 
 // 3. Find Leap Year 
 
-let yeraArr = [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039];
-for (i = 0; i < yeraArr.length; i++) {
-    let arrIndex = yeraArr[i];
+// let yeraArr = [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039];
+// for (i = 0; i < yeraArr.length; i++) {
+//     let arrIndex = yeraArr[i];
 
-    function findLeapYear() {
-        const learl = arrIndex % 4;
-        return learl;
-    }
-    let leapYearMod = findLeapYear();
+//     function findLeapYear() {
+//         const learl = arrIndex % 4;
+//         return learl;
+//     }
+//     let leapYearMod = findLeapYear();
 
-    if (leapYearMod == 0) {
-        console.log(arrIndex)
+//     if (leapYearMod == 0) {
+//         console.log(arrIndex)
+//     }
+// }
+
+
+// 3. find odd sum numebr 
+
+function findOddSum() {
+    let nums = [5, 7, 8, 10, 45, 30]
+    let oddNum = [];
+    for (i = 0; i < nums.length; i++) {
+        let element = nums[i] % 2;
+        if (element !== 0) {
+            oddNum.push(nums[i]);
+        }
     }
+    console.log(oddNum);
 }
+findOddSum();
+
+// let oddNumbers = [];
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 !== 0) {
+//         oddNumbers.push(i);
+//     }
+// }
+// console.log(oddNumbers);
