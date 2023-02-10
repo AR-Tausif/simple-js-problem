@@ -130,20 +130,20 @@ bar();
 
 // 3. Find Leap Year 
 
-// let yeraArr = [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039];
-// for (i = 0; i < yeraArr.length; i++) {
-//     let arrIndex = yeraArr[i];
+let yeraArr = [2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039];
+for (i = 0; i < yeraArr.length; i++) {
+    let arrIndex = yeraArr[i];
 
-//     function findLeapYear() {
-//         const learl = arrIndex % 4;
-//         return learl;
-//     }
-//     let leapYearMod = findLeapYear();
+    function findLeapYear() {
+        const learl = arrIndex % 4;
+        return learl;
+    }
+    let leapYearMod = findLeapYear();
 
-//     if (leapYearMod == 0) {
-//         console.log(arrIndex)
-//     }
-// }
+    if (leapYearMod == 0) {
+        console.log(arrIndex)
+    }
+}
 
 
 // 3. find odd sum numebr 
@@ -161,10 +161,14 @@ function findOddSum() {
 }
 findOddSum();
 
-// let oddNumbers = [];
-// for (let i = 1; i <= 10; i++) {
-//     if (i % 2 !== 0) {
-//         oddNumbers.push(i);
-//     }
-// }
-// console.log(oddNumbers);
+// Function of get namota of 13
+
+let namotaHintser = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+
+for (index = 0; index < namotaHintser.length; index++) {
+    let namotaHints = namotaHintser[index]
+    for (i = 1; i <= 10; i++) {
+        let doneGunon = i * namotaHints;
+        console.log(`${namotaHints} X ${i} = ${doneGunon}`);
+    }
+}
