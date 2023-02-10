@@ -30,14 +30,14 @@ return allResult.toFixed(2);
 let firstLine = "I am going to be";
 let lastLine = "an awesome web developer";
 let concatOneLine = firstLine + ' ' + lastLine;
-console.log(concatOneLine);
+return concatOneLine;
 
 // Sarah’s mother is teaching her mathematics. She gave Sarah a number and asked her what the remainder would be if she divided the number by 5. Help Sarah write the program.
 
 let number = 119;
 let result = number % 5;
 
-console.log(result);
+return result;
 
 
 // You get first in class seven. Your friends Alia, Dalia, Salia, Malia, Lilia and Jalaiya- You don't know thier grade of exam. But you also know thier result number. So Write the program with javascript
@@ -46,24 +46,24 @@ console.log(result);
 
 let numbers = [95, 66, 80, 59, 47, 77];
 numbers.unshift(10)
-console.log(numbers);
+return numbers;
 
 // Module 19 & Milestone 04 problem solvinig start here
 
 
 // problem solving 01
 let fruits = ['Apple', 'Banana', 'Orange'];
-console.log(fruits.indexOf('Banana'));
+return fruits.indexOf("Banana")
 
 let fruits1 = ['Apple', 'Banana', 'Orange'];
 fruits1[1] = "Mango";
-console.log(fruits1);
+return fruits1;
 
 var fruits2 = ['Apple', 'Banana', 'Orange'];
 fruits2.pop();
-console.log(fruits2);
+return fruits2;
 fruits2.push("Watermelon");
-console.log(fruits2);
+return fruits2;
 
 // You and your friends Tom, Jane, Peter and John got their final exam results. Your total score is 85, Tom’s total score is 66, Jane’s total score is 95, Peter’s total score is 56 and John’s total score is 40. The grading chart is
 
