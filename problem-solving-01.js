@@ -3,7 +3,7 @@
 let giveMoneyMom = 1000;
 let applePrice = 700;
 let giveMeShowkeaper = giveMoneyMom - applePrice;
-console.log(giveMeShowkeaper);
+return giveMeShowkeaper;
 
 
 // Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
