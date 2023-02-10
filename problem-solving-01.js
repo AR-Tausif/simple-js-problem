@@ -6,16 +6,24 @@ let giveMeShowkeaper = giveMoneyMom - applePrice;
 return giveMeShowkeaper;
 
 
-// Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
+// Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student
 
-let math = 75.25,
-    biology = 65,
-    chemistry = 80,
-    physics = 35.45,
-    bangla = 99.50;
-let allResult = (math + biology + chemistry + physics + bangla) / 5;
 
-console.log(allResult.toFixed(2));
+// let math = ;
+// let biology = 65;
+// let chemistry = 80;
+// let physics = 35.45;
+// let bangla = 99.50;
+const resultNumbers = {
+    math: 75.25,
+    biology: 65,
+    chemistry: 80,
+    physics: 35.45,
+    bangla: 99.50
+}
+let allResult = (resultNumbers.math + resultNumbers.biology + resultNumbers.chemistry + resultNumbers.physics + resultNumbers.bangla) / 5;
+
+return allResult.toFixed(2);
 
 // John’s teacher gave him two variables. Each variable contains a string. John’s teacher asked him to combine these two strings and print them in one line. Help John write the program. 
 
